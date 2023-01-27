@@ -13,11 +13,12 @@ int num1 = Convert.ToInt32((Console.ReadLine()));
 Console.WriteLine("Введите число_2");
 int num2 = Convert.ToInt32((Console.ReadLine()));
 
-int qr = num2 * num2;
+// int qr = num2 * num2;
 
+double qr = Math.Pow(num2, 2);
 if (qr == num1)
 {
-    Console.WriteLine("Да является");
+    Console.WriteLine($"Число {num1} является квадратом числа {num2}");
 }
 else
 {
