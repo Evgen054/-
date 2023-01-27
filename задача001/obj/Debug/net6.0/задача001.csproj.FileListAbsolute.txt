@@ -1,0 +1,15 @@
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\bin\Debug\net6.0\задача001.exe
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\bin\Debug\net6.0\задача001.deps.json
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\bin\Debug\net6.0\задача001.runtimeconfig.json
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\bin\Debug\net6.0\задача001.dll
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\bin\Debug\net6.0\задача001.pdb
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\obj\Debug\net6.0\задача001.csproj.AssemblyReference.cache
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\obj\Debug\net6.0\задача001.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\obj\Debug\net6.0\задача001.AssemblyInfoInputs.cache
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\obj\Debug\net6.0\задача001.AssemblyInfo.cs
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\obj\Debug\net6.0\задача001.csproj.CoreCompileInputs.cache
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\obj\Debug\net6.0\задача001.dll
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\obj\Debug\net6.0\refint\задача001.dll
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\obj\Debug\net6.0\задача001.pdb
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\obj\Debug\net6.0\задача001.genruntimeconfig.cache
+C:\Users\Evgeniy D\Desktop\GB\учёба с 24.01.23\семинар С\задача001\obj\Debug\net6.0\ref\задача001.dll
