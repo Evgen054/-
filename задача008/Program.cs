@@ -11,8 +11,13 @@ while (count <= num)
 {
     if (count % 2 == 0)
     {
-        Console.Write($"{count}, ");
-        count++;
+        Console.Write($"{count}");
+        if (count < num - 1)
+        {
+            Console.Write(", ");
+        }
     }
-    else count++;
+
+
+    count++;
 }
