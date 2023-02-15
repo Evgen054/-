@@ -7,22 +7,24 @@
 
 Console.Clear();
 
-void FillArray(int[] num)
+int[] FillArray()
 {
-    int lenght = num.Length;
+    int[] array = new int[9];
+    int lenght = array.Length;
     int index = 0;
     while (index < lenght)
     {
-        num[index] = new Random().Next(1, 9);
+        array[index] = new Random().Next(1, 10);
         index++;
     }
+    return array;
 }
 
 void PrintArray(int[] number)
 {
     int lenght = number.Length;
     int index = 0;
-    Console.Write("[");
+
     while (index < lenght)
     {
         Console.Write(number[index]);
@@ -33,7 +35,7 @@ void PrintArray(int[] number)
 
         index++;
     }
-    Console.Write("]");
+   
 }
 
 void IfPrintArray(int[] number)
@@ -52,9 +54,8 @@ void IfPrintArray(int[] number)
     }
 }
 
-int[] array = new int[8];
 
-FillArray(array);
+int[] array = FillArray();
 IfPrintArray(array);
 Console.Write(" -> ");
 PrintArray(array);

@@ -6,19 +6,39 @@
 
 // 2, 4 -> 16
 
-Console.Clear();
+// Console.Clear();
 
-Console.Write("Введите число A: ");
-int A = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите число A: ");
+// int A = int.Parse(Console.ReadLine()!);
 
-Console.Write("Введите число B: ");
-int B = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите число B: ");
+// int B = int.Parse(Console.ReadLine()!);
 
-double MathPow(int num, int st)
+// double MathPow(int num, int st)
+// {
+//     double n = Math.Pow(num, st);
+//     return n;
+// }
+
+// double math = MathPow(A, B);
+// Console.WriteLine($"{A}, {B} -> {math}");
+
+
+
+
+
+int Powe(int A, int B)
 {
-    double n = Math.Pow(num, st);
-    return n;
+    int result = 1;
+    for (int i = 0; i < B; i++)
+    {
+        result *= A;
+    }
+    return result;
 }
 
-double math = MathPow(A, B);
-Console.WriteLine($"{A}, {B} -> {math}");
+Console.Write($"Введите A: ");
+int a = int.Parse(Console.ReadLine()!);
+Console.Write($"Введите B: ");
+int b = int.Parse(Console.ReadLine()!);
+Console.WriteLine($"{a}^{b} = {Powe(a, b)}");
