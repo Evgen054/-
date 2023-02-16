@@ -31,7 +31,7 @@ int NumPozitive(int[] array)
 }
 
 Console.WriteLine("Введите М чисел: ");
-int size = int.Parse(Console.ReadLine());
+int size = int.Parse(Console.ReadLine()!);
 int[] array = GetArray(size, -99, 99);
 
 Console.Write(String.Join(", ", array));

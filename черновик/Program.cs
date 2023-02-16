@@ -161,27 +161,47 @@ Console.Clear();
 // [6 7 3 6] -> 36 21
 
 
-int[] GetArray(int size, int minValue, int maxValue)
-{
-    int[] result = new int[size];
-    for (int i = 0; i < size; i++)
-    {
-        result[i] = new Random().Next(minValue, maxValue + 1);
-    }
-    return result;
-}
-int[] array = GetArray(5, 1, 9);
-Console.Write(String.Join(", ", array));
+// int[] GetArray(int size, int minValue, int maxValue)
+// {
+//     int[] result = new int[size];
+//     for (int i = 0; i < size; i++)
+//     {
+//         result[i] = new Random().Next(minValue, maxValue + 1);
+//     }
+//     return result;
+// }
+// int[] array = GetArray(5, 1, 9);
+// Console.Write(String.Join(", ", array));
 
-int SumArray(int[] array)
-{
-    if (array.Length % 2 == 0)
-    {
-        int result = 0;
-        for (int i = 0; i < array.Length / 2; i++)
-        {
-            result = i * i - 1;
-            Console.Write(result);
-        }
-    }
-}
+// int SumArray(int[] array)
+// {
+//     if (array.Length % 2 == 0)
+//     {
+//         int result = 0;
+//         for (int i = 0; i < array.Length / 2; i++)
+//         {
+//             result = i * i - 1;
+//             Console.Write(result);
+//         }
+//     }
+// }
+
+Console.Write("Введите k1: ");
+var k1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите b1: ");
+var b1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите k2: ");
+var k2 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите b2: ");
+var b2 = Convert.ToDouble(Console.ReadLine());
+ 
+ 
+var x = -(b1 - b2) / (k1 - k2);
+var y = k1 * x + b1;
+ 
+x = Math.Round(x, 3);
+y = Math.Round(y, 3);
+ 
+Console.WriteLine($"Пересечение в точке: ({x};{y})");
+
+// b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
