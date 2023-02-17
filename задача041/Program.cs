@@ -17,7 +17,7 @@ int[] GetArray(int size, int minValue, int maxValue)
     return result;
 }
 
-int NumPozitive(int[] array)
+int GetPozitive(int[] array)
 {
     int result = 0;
     for (int i = 0; i < array.Length; i++)
@@ -36,4 +36,4 @@ int[] array = GetArray(size, -99, 99);
 
 Console.Write(String.Join(", ", array));
 Console.Write(" -> ");
-Console.Write(String.Join(", ", NumPozitive(array)));
+Console.Write(String.Join(", ", GetPozitive(array)));
